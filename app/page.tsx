@@ -411,8 +411,8 @@ export default function Home() {
 
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop"
-                  alt="Riparazione serrande"
+                  src="/images/services/serranda-bloccata-milano.webp"
+                  alt="Riparazione serranda bloccata Milano"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
@@ -444,8 +444,8 @@ export default function Home() {
 
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200&auto=format&fit=crop"
-                  alt="Motori serrande"
+                  src="/images/services/motore-serranda-milano.webp"
+                  alt="Riparazione motore serranda Milano"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
@@ -477,8 +477,8 @@ export default function Home() {
 
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop"
-                  alt="Sostituzione serrande"
+                  src="/images/services/saracinesca-negozio-milano.webp"
+                  alt="Saracinesca negozio Milano"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
@@ -510,8 +510,8 @@ export default function Home() {
 
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1200&auto=format&fit=crop"
-                  alt="Manutenzione serrande"
+                  src="/images/services/pronto-intervento-serrande-milano.webp"
+                  alt="Pronto intervento serrande Milano"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
