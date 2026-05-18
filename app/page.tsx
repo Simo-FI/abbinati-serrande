@@ -167,7 +167,7 @@ export default function Home() {
 
   {/* DESKTOP CTA */}
   <a
-    href="tel:+393000000000"
+    href="tel:+393395337287"
     className="hidden lg:flex bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-bold px-6 py-4 rounded-2xl items-center gap-2 shadow-2xl"
   >
     <Phone size={18} />
@@ -568,7 +568,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 lg:justify-end">
 
                 <a
-                  href="tel:+393000000000"
+                  href="tel:+393395337287"
                   className="bg-[#f0b429] hover:opacity-90 transition text-black font-bold px-8 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
                 >
                   <Phone size={22} />
@@ -576,7 +576,7 @@ export default function Home() {
                 </a>
 
                 <a
-                  href="https://wa.me/393000000000"
+                  href="https://wa.me/393395337287"
                   target="_blank"
                   className="border border-white/20 hover:bg-white hover:text-black transition font-bold px-8 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
                 >
@@ -597,7 +597,7 @@ export default function Home() {
       <div className="fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 p-4 flex gap-3 z-50 md:hidden">
 
         <a
-          href="tel:+393000000000"
+          href="tel:+393395337287"
           className="flex-1 bg-[#111827] text-white rounded-2xl py-4 font-bold flex items-center justify-center gap-2"
         >
           <Phone size={20} />
@@ -605,7 +605,7 @@ export default function Home() {
         </a>
 
         <a
-          href="https://wa.me/393000000000"
+          href="https://wa.me/393395337287"
           target="_blank"
           className="flex-1 bg-[#f0b429] text-black rounded-2xl py-4 font-bold flex items-center justify-center gap-2"
         >
@@ -615,7 +615,7 @@ export default function Home() {
 
       </div>
       {/* FOOTER */}
-<footer className="bg-[#020617] border-t border-white/10 mt-24">
+<footer className="bg-[#020617] border-t border-white/10 mt-10 md:mt-20">
 
   <div className="max-w-7xl mx-auto px-6 py-16">
 
