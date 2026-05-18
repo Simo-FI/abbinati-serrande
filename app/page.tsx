@@ -735,6 +735,112 @@ export default function Home() {
         </div>
 
       </footer>
+      {/* FOOTER */}
+<footer className="bg-[#020617] border-t border-white/10 mt-24">
+
+  <div className="max-w-7xl mx-auto px-6 py-16">
+
+    <div className="grid lg:grid-cols-3 gap-12">
+
+      {/* BRAND */}
+      <div>
+
+        <h2 className="text-3xl font-black text-white mb-2">
+          ABBINATI
+        </h2>
+
+        <p className="text-sm tracking-[0.3em] text-gray-400 mb-6">
+          SERRANDE
+        </p>
+
+        <p className="text-gray-400 leading-relaxed max-w-md">
+          Pronto intervento serrande e saracinesche a Milano.
+          Operativi su tutta Milano con interventi rapidi,
+          riparazioni professionali e assistenza H24.
+        </p>
+
+      </div>
+
+      {/* CONTACTS */}
+      <div>
+
+        <h3 className="text-white font-bold text-xl mb-6">
+          Contatti
+        </h3>
+
+        <div className="flex flex-col gap-4 text-gray-400">
+
+          <a
+            href="tel:+393357988607"
+            className="hover:text-[#f0b429] transition"
+          >
+            +39 335 798 8607
+          </a>
+
+          <a
+            href="https://wa.me/393357988607"
+            target="_blank"
+            className="hover:text-[#f0b429] transition"
+          >
+            WhatsApp
+          </a>
+
+          <p>
+            Via Padova 19<br />
+            20127 Milano
+          </p>
+
+        </div>
+
+      </div>
+
+      {/* COMPANY */}
+      <div>
+
+        <h3 className="text-white font-bold text-xl mb-6">
+          Azienda
+        </h3>
+
+        <div className="flex flex-col gap-4 text-gray-400">
+
+          <p>
+            Abbinati Srl
+          </p>
+
+          <p>
+            P.IVA 03694660964
+          </p>
+
+          <p>
+            Operativi H24
+          </p>
+
+          <p>
+            Milano e provincia
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    {/* BOTTOM */}
+    <div className="border-t border-white/10 mt-14 pt-8 flex flex-col md:flex-row gap-4 justify-between text-sm text-gray-500">
+
+      <p>
+        © 2026 Abbinati Srl - Tutti i diritti riservati
+      </p>
+
+      <p>
+        Pronto Intervento Serrande Milano
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
     </main>
   );
 }
