@@ -7,24 +7,65 @@ import {
 
 export default function Home() {
   return (
-    <main className="bg-[#f3f4f6] text-[#111827] min-h-screen">
+    <main className="bg-[#f3f4f6] text-[#111827] min-h-screen overflow-x-hidden">
 
       {/* NAVBAR */}
-      <header className="sticky top-0 z-50 backdrop-blur bg-white/90 border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <header className="fixed top-0 left-0 w-full z-50 bg-transparent">
+        <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
 
-          <div>
-            <h2 className="text-2xl font-black tracking-tight">
-              ABBINATI
-            </h2>
-            <p className="text-xs tracking-[0.3em] text-gray-500">
-              SERRANDE
-            </p>
-          </div>
+          <div className="flex items-center gap-14">
+
+  {/* LOGO */}
+  <div>
+
+    <h2 className="text-2xl font-black tracking-tight text-white">
+      ABBINATI
+    </h2>
+
+    <p className="text-xs tracking-[0.3em] text-gray-300">
+      SERRANDE
+    </p>
+
+  </div>
+
+  {/* MENU */}
+  <nav className="hidden lg:flex items-center gap-8 text-white font-medium">
+
+    <a
+      href="#"
+      className="hover:text-[#f0b429] transition"
+    >
+      Home
+    </a>
+
+    <a
+      href="#"
+      className="hover:text-[#f0b429] transition"
+    >
+      Servizi
+    </a>
+
+    <a
+      href="#"
+      className="hover:text-[#f0b429] transition"
+    >
+      Chi Siamo
+    </a>
+
+    <a
+      href="#"
+      className="hover:text-[#f0b429] transition"
+    >
+      Contatti
+    </a>
+
+  </nav>
+
+</div>
 
           <a
             href="tel:+393000000000"
-            className="bg-[#f0b429] hover:opacity-90 transition px-5 py-3 rounded-xl font-bold flex items-center gap-2"
+            className="bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-bold px-6 py-4 rounded-2xl flex items-center gap-2 shadow-2xl"
           >
             <Phone size={18} />
             <span className="hidden sm:block">
@@ -35,122 +76,198 @@ export default function Home() {
         </div>
       </header>
 
-      {/* HERO */}
-      <section className="max-w-7xl mx-auto px-6 py-14 lg:py-24">
+      {/* HERO PREMIUM */}
+<section className="relative min-h-[92vh] flex items-center overflow-hidden bg-black">
 
-        <div className="grid lg:grid-cols-2 gap-14 items-center">
+  {/* BACKGROUND IMAGE */}
+  <div className="absolute inset-0">
 
-          {/* LEFT */}
-          <div>
+    <img
+      src="/hero-serranda.webp"
+      alt="Serranda Milano"
+     className="w-full h-full object-cover scale-105"
+    />
 
-            <div className="inline-flex items-center gap-2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              <Clock3 size={16} />
-              Operativi su Milano città
-            </div>
+    {/* OVERLAY */}
+    <div className="absolute inset-0 bg-[#020617]/55"></div>
 
-            <h1 className="text-5xl md:text-7xl font-black leading-[0.95] tracking-tight mb-8">
-              Riparazione Serrande e Saracinesche a Milano
-            </h1>
+    {/* GRADIENT */}
+    <div className="absolute inset-0 bg-gradient-to-r from-[#020617]/95 via-[#020617]/75 to-[#020617]/20"></div>
 
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-10 max-w-xl">
-              Pronto intervento su serrande bloccate,
-              serrande elettriche, motori,
-              molle e saracinesche per negozi e attività commerciali.
-            </p>
+  </div>
 
-            {/* CTA */}
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
+  {/* CONTENT */}
+  <div className="relative z-10 max-w-7xl mx-auto px-6 py-24 w-full">
 
-              <a
-                href="tel:+393000000000"
-                className="bg-[#111827] hover:opacity-90 transition text-white px-8 py-4 rounded-2xl font-bold flex items-center justify-center gap-2"
-              >
-                <Phone size={20} />
-                Chiama Ora
-              </a>
+    <div className="max-w-2xl">
 
-              <a
-                href="https://wa.me/393000000000"
-                target="_blank"
-                className="bg-white border border-gray-300 hover:border-black transition px-8 py-4 rounded-2xl font-bold flex items-center justify-center gap-2"
-              >
-                <MessageCircle size={20} />
-                WhatsApp
-              </a>
+      <div className="inline-flex items-center gap-3 bg-white/10 border border-white/10 backdrop-blur px-5 py-3 rounded-full mb-8">
 
-            </div>
+  <div className="w-2 h-2 rounded-full bg-[#f0b429]"></div>
 
-            {/* TRUST */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+  <p className="text-[#f0b429] font-bold uppercase tracking-[0.15em] text-sm">
+    Pronto Intervento Serrande Milano H24
+  </p>
 
-              <div className="bg-white p-5 rounded-2xl border border-gray-200">
-                <ShieldCheck className="text-[#f0b429] mb-3" />
-                <h3 className="font-bold mb-1">
-                  20+ anni esperienza
-                </h3>
-                <p className="text-sm text-gray-500">
-                  Operativi su Milano
-                </p>
-              </div>
+</div>
 
-              <div className="bg-white p-5 rounded-2xl border border-gray-200">
-                <ShieldCheck className="text-[#f0b429] mb-3" />
-                <h3 className="font-bold mb-1">
-                  Interventi rapidi
-                </h3>
-                <p className="text-sm text-gray-500">
-                  Assistenza professionale
-                </p>
-              </div>
+      <h1 className="text-white text-5xl md:text-7xl xl:text-[88px] font-black leading-[0.92] tracking-tight mb-8">
+        Riparazione Serrande e Saracinesche a Milano
+      </h1>
 
-              <div className="bg-white p-5 rounded-2xl border border-gray-200">
-                <ShieldCheck className="text-[#f0b429] mb-3" />
-                <h3 className="font-bold mb-1">
-                  Preventivi chiari
-                </h3>
-                <p className="text-sm text-gray-500">
-                  Nessuna sorpresa
-                </p>
-              </div>
+      <p className="text-gray-300 text-lg md:text-xl leading-relaxed mb-12 max-w-xl">
+        Interventi rapidi su serrande bloccate,
+        saracinesche, serrande elettriche
+        e motori guasti.
+        Operativi su tutta Milano, 24 ore su 24.
+      </p>
 
-            </div>
+      <div className="flex flex-col sm:flex-row gap-4 mb-14">
 
-          </div>
+        <a
+          href="tel:+393000000000"
+          className="bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-black px-9 py-5 rounded-2xl flex items-center justify-center gap-3 shadow-[0_20px_60px_rgba(240,180,41,0.35)] text-lg"
+        >
+          <Phone size={22} />
+          Chiama Ora
+        </a>
 
-          {/* RIGHT */}
-          <div className="relative">
+        <a
+          href="https://wa.me/393000000000"
+          target="_blank"
+          className="border border-white/15 bg-white/5 backdrop-blur hover:bg-white hover:text-black transition text-white font-bold px-9 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
+        >
+          <MessageCircle size={22} />
+          WhatsApp
+        </a>
 
-            <div className="aspect-[4/5] overflow-hidden rounded-[2rem] shadow-2xl relative">
+      </div>
 
-              <img
-  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1400&auto=format&fit=crop"
-  alt="Riparazione serrande Milano"
-  className="w-full h-full object-cover brightness-75"
-/>
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-white">
 
-<div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+        <div className="border border-white/10 bg-white/5 backdrop-blur p-5 rounded-2xl">
 
-            </div>
+          <Clock3 className="text-[#f0b429] mb-4" />
 
-            {/* FLOATING CARD */}
-            <div className="absolute -bottom-6 left-6 bg-white p-6 rounded-2xl shadow-2xl max-w-sm border border-gray-200">
+          <h3 className="font-bold mb-2">
+            Intervento Rapido
+          </h3>
 
-              <p className="font-bold text-lg mb-2">
-                Pronto intervento rapido
-              </p>
-
-              <p className="text-gray-600 leading-relaxed">
-                Assistenza professionale per serrande,
-                saracinesche e motori su Milano città.
-              </p>
-
-            </div>
-
-          </div>
+          <p className="text-sm text-gray-400">
+            Arrivo rapido su Milano
+          </p>
 
         </div>
 
-      </section>
+        <div className="border border-white/10 bg-white/5 backdrop-blur p-5 rounded-2xl">
+
+          <ShieldCheck className="text-[#f0b429] mb-4" />
+
+          <h3 className="font-bold mb-2">
+            Disponibili H24
+          </h3>
+
+          <p className="text-sm text-gray-400">
+            Assistenza continua
+          </p>
+
+        </div>
+
+        <div className="border border-white/10 bg-white/5 backdrop-blur p-5 rounded-2xl">
+
+          <ShieldCheck className="text-[#f0b429] mb-4" />
+
+          <h3 className="font-bold mb-2">
+            Tecnici Esperti
+          </h3>
+
+          <p className="text-sm text-gray-400">
+            20+ anni esperienza
+          </p>
+
+        </div>
+
+        <div className="border border-white/10 bg-white/5 backdrop-blur p-5 rounded-2xl">
+
+          <ShieldCheck className="text-[#f0b429] mb-4" />
+
+          <h3 className="font-bold mb-2">
+            Prezzi Chiari
+          </h3>
+
+          <p className="text-sm text-gray-400">
+            Preventivi trasparenti
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  {/* TRUST BAR */}
+  <div className="relative z-10 mt-20">
+
+    <div className="max-w-6xl mx-auto">
+
+      <div className="grid grid-cols-2 lg:grid-cols-4 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 backdrop-blur">
+
+        <div className="p-5 md:p-8 border-b md:border-b-0 md:border-r border-white/10">
+
+          <p className="text-[#f0b429] text-2xl md:text-3xl font-black mb-2">
+            20+
+          </p>
+
+          <p className="text-white font-semibold">
+            Anni di esperienza
+          </p>
+
+        </div>
+
+        <div className="p-5 md:p-8 border-b md:border-b-0 md:border-r border-white/10">
+
+          <p className="text-[#f0b429] text-2xl md:text-3xl font-black mb-2">
+            H24
+          </p>
+
+          <p className="text-white font-semibold">
+            Disponibilità continua
+          </p>
+
+        </div>
+
+        <div className="p-5 md:p-8 md:border-r border-white/10">
+
+          <p className="text-[#f0b429] text-2xl md:text-3xl font-black mb-2">
+            Milano
+          </p>
+
+          <p className="text-white font-semibold">
+            Operativi in città
+          </p>
+
+        </div>
+
+        <div className="p-5 md:p-8">
+
+          <p className="text-[#f0b429] text-2xl md:text-3xl
+           font-black mb-2">
+            Fast
+          </p>
+
+          <p className="text-white font-semibold">
+            Intervento rapido
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
             {/* SERVICES */}
       <section className="py-24 bg-white">
 
@@ -400,7 +517,7 @@ export default function Home() {
             {/* BRAND */}
             <div>
 
-              <h3 className="text-3xl font-black mb-4">
+              <h3 className="text-2xl md:text-3xl font-black mb-4">
                 ABBINATI
               </h3>
 
