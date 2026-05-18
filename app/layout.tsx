@@ -47,6 +47,30 @@ export default function RootLayout({
   return (
     <html lang="it">
       <body className={inter.className}>
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      name: "Abbinati Serrande",
+      image: "https://abbinatiserrande.it/favicon.png",
+      url: "https://abbinatiserrande.it",
+      telephone: "+393395337287",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Via Padova 19",
+        addressLocality: "Milano",
+        postalCode: "20127",
+        addressCountry: "IT",
+      },
+      areaServed: "Milano",
+      priceRange: "€€",
+      description:
+        "Pronto intervento serrande e saracinesche a Milano H24.",
+    }),
+  }}
+/>
         {children}
       </body>
     </html>
