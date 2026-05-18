@@ -15,7 +15,92 @@ export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <main className="bg-[#f3f4f6] text-[#111827] min-h-screen overflow-x-hidden">
+{/* MOBILE MENU DRAWER */}
+{mobileMenuOpen && (
 
+  <div className="fixed inset-0 z-[100] bg-black/70 backdrop-blur-sm lg:hidden">
+
+    <div className="absolute top-0 right-0 h-full w-[85%] bg-[#020617] border-l border-white/10 p-8 flex flex-col">
+
+      {/* TOP */}
+      <div className="flex items-center justify-between mb-12">
+
+        <div>
+
+          <h2 className="text-2xl font-black tracking-tight text-white">
+            ABBINATI
+          </h2>
+
+          <p className="text-xs tracking-[0.3em] text-gray-400">
+            SERRANDE
+          </p>
+
+        </div>
+
+        <button
+          onClick={() => setMobileMenuOpen(false)}
+          className="text-white text-4xl leading-none"
+        >
+          ×
+        </button>
+
+      </div>
+
+      {/* MENU LINKS */}
+      <div className="flex flex-col gap-6 text-white text-2xl font-bold">
+
+        <a
+          href="#"
+          onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-[#f0b429] transition"
+        >
+          Home
+        </a>
+
+        <a
+          href="#"
+          onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-[#f0b429] transition"
+        >
+          Servizi
+        </a>
+
+        <a
+          href="#"
+          onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-[#f0b429] transition"
+        >
+          Chi Siamo
+        </a>
+
+        <a
+          href="#"
+          onClick={() => setMobileMenuOpen(false)}
+          className="hover:text-[#f0b429] transition"
+        >
+          Contatti
+        </a>
+
+      </div>
+
+      {/* CTA */}
+      <div className="mt-auto">
+
+        <a
+          href="tel:+393357988607"
+          className="bg-[#f0b429] text-black font-black rounded-2xl px-6 py-5 flex items-center justify-center gap-3 text-lg"
+        >
+          <Phone size={22} />
+          Chiama Ora
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+)}
       {/* NAVBAR */}
       <header className="fixed top-0 left-0 w-full z-50 bg-transparent">
         <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
