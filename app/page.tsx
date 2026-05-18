@@ -209,13 +209,13 @@ export default function Home() {
   {/* TRUST BAR */}
   <div className="relative z-10 mt-20">
 
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-6xl mx-auto px-4">
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 backdrop-blur">
+      <div className="grid grid-cols-2 md:grid-cols-4 overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 backdrop-blur">
 
-        <div className="p-5 md:p-8 border-b md:border-b-0 md:border-r border-white/10">
+        <div className="p-4 md:p-8 border-b md:border-b-0 md:border-r border-white/10">
 
-          <p className="text-[#f0b429] text-2xl md:text-3xl font-black mb-2">
+          <p className="text-[#f0b429] text-xl md:text-3xl font-black mb-2">
             20+
           </p>
 
@@ -225,9 +225,9 @@ export default function Home() {
 
         </div>
 
-        <div className="p-5 md:p-8 border-b md:border-b-0 md:border-r border-white/10">
+        <div className="p-4 md:p-8 border-b md:border-b-0 md:border-r border-white/10">
 
-          <p className="text-[#f0b429] text-2xl md:text-3xl font-black mb-2">
+          <p className="text-[#f0b429] text-xl md:text-3xl font-black mb-2">
             H24
           </p>
 
@@ -237,9 +237,9 @@ export default function Home() {
 
         </div>
 
-        <div className="p-5 md:p-8 md:border-r border-white/10">
+        <div className="p-4 md:p-8 md:border-r border-white/10">
 
-          <p className="text-[#f0b429] text-2xl md:text-3xl font-black mb-2">
+          <p className="text-[#f0b429] text-xl md:text-3xl font-black mb-2">
             Milano
           </p>
 
@@ -249,9 +249,9 @@ export default function Home() {
 
         </div>
 
-        <div className="p-5 md:p-8">
+        <div className="p-4 md:p-8">
 
-          <p className="text-[#f0b429] text-2xl md:text-3xl
+          <p className="text-[#f0b429] text-xl md:text-3xl
            font-black mb-2">
             Fast
           </p>
