@@ -620,6 +620,103 @@ export default function Home() {
         </a>
 
       </div>
+      {/* GALLERY */}
+<section className="py-24 bg-[#f8fafc]">
+
+  <div className="max-w-7xl mx-auto px-6">
+
+    {/* TITLE */}
+    <div className="max-w-3xl mb-16">
+
+      <p className="text-[#f0b429] font-bold uppercase tracking-[0.15em] mb-4 text-sm">
+        Lavori Eseguiti
+      </p>
+
+      <h2 className="text-4xl md:text-6xl font-black leading-tight text-[#020617] mb-6">
+        Interventi Recenti a Milano
+      </h2>
+
+      <p className="text-lg text-gray-600 leading-relaxed">
+        Alcuni interventi reali effettuati su serrande,
+        saracinesche e motori a Milano e provincia.
+      </p>
+
+    </div>
+
+    {/* GRID */}
+    <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
+
+      {/* IMAGE 1 */}
+      <div className="group overflow-hidden rounded-[2rem]">
+
+        <img
+          src="/images/gallery/riparazione-serranda-porta-romana.webp"
+          alt="Riparazione serranda Porta Romana Milano"
+          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+        />
+
+      </div>
+
+      {/* IMAGE 2 */}
+      <div className="group overflow-hidden rounded-[2rem]">
+
+        <img
+          src="/images/gallery/motore-serranda-navigli.webp"
+          alt="Motore serranda Navigli Milano"
+          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+        />
+
+      </div>
+
+      {/* IMAGE 3 */}
+      <div className="group overflow-hidden rounded-[2rem]">
+
+        <img
+          src="/images/gallery/saracinesca-duomo-milano.webp"
+          alt="Saracinesca Duomo Milano"
+          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+        />
+
+      </div>
+
+      {/* IMAGE 4 */}
+      <div className="group overflow-hidden rounded-[2rem]">
+
+        <img
+          src="/images/gallery/pronto-intervento-citta-studi.webp"
+          alt="Pronto intervento serrande Città Studi Milano"
+          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+        />
+
+      </div>
+
+      {/* IMAGE 5 */}
+      <div className="group overflow-hidden rounded-[2rem]">
+
+        <img
+          src="/images/gallery/serranda-bloccata-loreto.webp"
+          alt="Serranda bloccata Loreto Milano"
+          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+        />
+
+      </div>
+
+      {/* IMAGE 6 */}
+      <div className="group overflow-hidden rounded-[2rem]">
+
+        <img
+          src="/images/gallery/riparazione-serranda-brera.webp"
+          alt="Riparazione serranda Brera Milano"
+          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* FOOTER */}
 <footer
   id="contatti"
