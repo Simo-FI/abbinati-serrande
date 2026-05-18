@@ -14,7 +14,7 @@ export default function Home() {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
-    <main className="bg-[#f3f4f6] text-[#111827] min-h-screen overflow-x-hidden">
+    <main className="bg-[#f3f4f6] text-[#111827] min-h-screen overflow-x-hidden scroll-smooth">
 {/* MOBILE MENU DRAWER */}
 {mobileMenuOpen && (
 
@@ -50,7 +50,7 @@ export default function Home() {
       <div className="flex flex-col gap-6 text-white text-2xl font-bold">
 
         <a
-          href="#"
+          href="#home"
           onClick={() => setMobileMenuOpen(false)}
           className="hover:text-[#f0b429] transition"
         >
@@ -58,7 +58,7 @@ export default function Home() {
         </a>
 
         <a
-          href="#"
+          href="#servizi"
           onClick={() => setMobileMenuOpen(false)}
           className="hover:text-[#f0b429] transition"
         >
@@ -66,7 +66,7 @@ export default function Home() {
         </a>
 
         <a
-          href="#"
+          href="#servizi"
           onClick={() => setMobileMenuOpen(false)}
           className="hover:text-[#f0b429] transition"
         >
@@ -74,7 +74,7 @@ export default function Home() {
         </a>
 
         <a
-          href="#"
+          href="#contatti"
           onClick={() => setMobileMenuOpen(false)}
           className="hover:text-[#f0b429] transition"
         >
@@ -124,28 +124,28 @@ export default function Home() {
   <nav className="hidden lg:flex items-center gap-8 text-white font-medium">
 
     <a
-      href="#"
+      href="#home"
       className="hover:text-[#f0b429] transition"
     >
       Home
     </a>
 
     <a
-      href="#"
+      href="#servizi"
       className="hover:text-[#f0b429] transition"
     >
       Servizi
     </a>
 
     <a
-      href="#"
+      href="#servizi"
       className="hover:text-[#f0b429] transition"
     >
       Chi Siamo
     </a>
 
     <a
-      href="#"
+      href="#contatti"
       className="hover:text-[#f0b429] transition"
     >
       Contatti
@@ -184,7 +184,10 @@ export default function Home() {
       </header>
 
       {/* HERO PREMIUM */}
-<section className="relative min-h-[92vh] flex items-center overflow-hidden bg-black">
+<section
+  id="home"
+  className="relative min-h-[92vh] flex items-center overflow-hidden bg-black"
+>
 
   {/* BACKGROUND IMAGE */}
   <div className="absolute inset-0">
@@ -376,7 +379,10 @@ export default function Home() {
   </div>
 </section>
             {/* SERVICES */}
-      <section className="py-24 bg-white">
+      <section
+  id="servizi"
+  className="py-24 bg-white"
+>
 
         <div className="max-w-7xl mx-auto px-6">
 
@@ -615,7 +621,10 @@ export default function Home() {
 
       </div>
       {/* FOOTER */}
-<footer className="bg-[#020617] border-t border-white/10">
+<footer
+  id="contatti"
+  className="bg-[#020617] border-t border-white/10"
+>
 
   <div className="max-w-7xl mx-auto px-6 py-16">
 
