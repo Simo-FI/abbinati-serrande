@@ -87,7 +87,7 @@ export default function Home() {
       <div className="mt-auto">
 
         <a
-          href="tel:+393357988607"
+          href="tel:+393395337287"
           className="bg-[#f0b429] text-black font-black rounded-2xl px-6 py-5 flex items-center justify-center gap-3 text-lg"
         >
           <Phone size={22} />
@@ -232,7 +232,7 @@ export default function Home() {
       <div className="flex flex-col sm:flex-row gap-4 mb-14">
 
   <a
-    href="tel:+393357988607"
+    href="tel:+393395337287"
     className="bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-black px-9 py-5 rounded-2xl flex items-center justify-center gap-3 shadow-[0_20px_60px_rgba(240,180,41,0.35)] text-lg"
   >
     <Phone size={22} />
@@ -240,7 +240,7 @@ export default function Home() {
   </a>
 
   <a
-    href="https://wa.me/393357988607"
+    href="https://wa.me/393395337287"
     target="_blank"
     className="border border-white/15 bg-white/5 backdrop-blur hover:bg-white hover:text-black transition text-white font-bold px-9 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
   >
@@ -650,14 +650,14 @@ export default function Home() {
         <div className="flex flex-col gap-4 text-gray-400">
 
           <a
-            href="tel:+393357988607"
+            href="tel:+393395337287"
             className="hover:text-[#f0b429] transition"
           >
-            +39 335 798 8607
+            +39 339 533 7287
           </a>
 
           <a
-            href="https://wa.me/393357988607"
+            href="https://wa.me/393395337287"
             target="_blank"
             className="hover:text-[#f0b429] transition"
           >
