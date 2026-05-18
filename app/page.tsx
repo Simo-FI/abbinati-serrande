@@ -70,15 +70,30 @@ export default function Home() {
 
 </div>
 
-          <a
-            href="tel:+393000000000"
-            className="bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-bold px-6 py-4 rounded-2xl flex items-center gap-2 shadow-2xl"
-          >
-            <Phone size={18} />
-            <span className="hidden sm:block">
-              Chiama Ora
-            </span>
-          </a>
+          <div className="flex items-center gap-4">
+
+  {/* MOBILE MENU BUTTON */}
+  <button
+    onClick={() => setMobileMenuOpen(true)}
+    className="lg:hidden bg-[#f0b429] text-black p-4 rounded-2xl shadow-2xl"
+  >
+    <Menu size={28} />
+  </button>
+
+  {/* DESKTOP CTA */}
+  <a
+    href="tel:+393000000000"
+    className="hidden lg:flex bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-bold px-6 py-4 rounded-2xl items-center gap-2 shadow-2xl"
+  >
+    <Phone size={18} />
+
+    <span>
+      Chiama Ora
+    </span>
+
+  </a>
+
+</div>
 
         </div>
       </header>
