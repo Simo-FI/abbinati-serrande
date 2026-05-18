@@ -130,31 +130,25 @@ export default function Home() {
       </p>
 
       <div className="flex flex-col sm:flex-row gap-4 mb-14">
-{/* MOBILE MENU BUTTON */}
-<button
-  onClick={() => setMobileMenuOpen(true)}
-  className="lg:hidden bg-[#f0b429] text-black p-4 rounded-2xl shadow-2xl"
->
-  <Menu size={28} />
-</button>
-        <a
-          href="tel:+393357988607"
-          className="hidden lg:flex bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-bold px-6 py-4 rounded-2xl items-center gap-2 shadow-2xl"
-        >
-          <Phone size={22} />
-          Chiama Ora
-        </a>
 
-        <a
-          href="https://wa.me/393357988607"
-          target="_blank"
-          className="border border-white/15 bg-white/5 backdrop-blur hover:bg-white hover:text-black transition text-white font-bold px-9 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
-        >
-          <MessageCircle size={22} />
-          WhatsApp
-        </a>
+  <a
+    href="tel:+393357988607"
+    className="bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-black px-9 py-5 rounded-2xl flex items-center justify-center gap-3 shadow-[0_20px_60px_rgba(240,180,41,0.35)] text-lg"
+  >
+    <Phone size={22} />
+    Chiama Ora
+  </a>
 
-      </div>
+  <a
+    href="https://wa.me/393357988607"
+    target="_blank"
+    className="border border-white/15 bg-white/5 backdrop-blur hover:bg-white hover:text-black transition text-white font-bold px-9 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
+  >
+    <MessageCircle size={22} />
+    WhatsApp
+  </a>
+
+</div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-white">
 
