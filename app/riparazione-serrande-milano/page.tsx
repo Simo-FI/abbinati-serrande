@@ -194,7 +194,10 @@ export default function RiparazioneSerrandeMilanoPage() {
                 height={600}
                 className="w-full aspect-[4/3] object-cover rounded-[2rem]"
               />
-<div className="overflow-hidden rounded-[2rem]">
+
+              </div>
+              
+              <div className="overflow-hidden rounded-[2rem]">
 
   <Image
     src="/images/gallery/serrande-bloccate/serranda-fuori-asse-milano-centro.webp"
