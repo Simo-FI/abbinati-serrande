@@ -99,7 +99,47 @@ export default function RiparazioneSerrandeMilanoPage() {
         </div>
 
       </section>
+{/* TECHNICAL CONTENT */}
+<section className="pb-24">
 
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="bg-white rounded-[2rem] p-10 md:p-14">
+
+      <h2 className="text-4xl md:text-5xl font-black mb-8">
+        Interventi su Serrande Manuali ed Elettriche
+      </h2>
+
+      <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+
+        <p>
+          Effettuiamo assistenza su serrande manuali
+          ed elettriche per negozi, garage,
+          abitazioni e attività commerciali
+          su Milano e provincia.
+        </p>
+
+        <p>
+          Interveniamo su serrande bloccate,
+          molle rotte, serrande fuori asse,
+          problemi di apertura e chiusura,
+          motori guasti e automazioni.
+        </p>
+
+        <p>
+          Utilizziamo componenti professionali
+          e operiamo con interventi rapidi
+          per ridurre tempi di fermo
+          e problematiche di sicurezza.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* GALLERY */}
       <section className="pb-24">
 
