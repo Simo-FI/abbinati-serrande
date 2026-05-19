@@ -631,6 +631,47 @@ export default function Home() {
         </a>
 
       </div>
+      {/* SEO CONTENT */}
+<section className="py-24 bg-white">
+
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="mb-16">
+
+      <p className="text-[#f0b429] font-bold uppercase tracking-[0.15em] mb-4 text-sm">
+        Riparazione Serrande Milano
+      </p>
+
+      <h2 className="text-4xl md:text-6xl font-black leading-tight text-[#020617] mb-8">
+        Pronto Intervento Serrande e Saracinesche a Milano H24
+      </h2>
+
+      <p className="text-lg text-gray-600 leading-relaxed mb-6">
+        Abbinati Serrande opera su Milano e provincia con
+        interventi rapidi per riparazione serrande bloccate,
+        saracinesche per negozi, motori serrande e automazioni.
+        Effettuiamo pronto intervento H24 per attività commerciali,
+        garage, negozi e abitazioni private.
+      </p>
+
+      <p className="text-lg text-gray-600 leading-relaxed mb-6">
+        Interveniamo su serrande manuali ed elettriche,
+        sostituzione molle serrande, riparazione motori,
+        sblocco serrande e manutenzione saracinesche
+        su tutta Milano.
+      </p>
+
+      <p className="text-lg text-gray-600 leading-relaxed">
+        Operativi in zone come Porta Romana, Loreto,
+        Città Studi, Navigli, Brera, Duomo e Milano Centrale
+        con assistenza professionale e interventi rapidi.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
       {/* GALLERY */}
 <section className="py-24 bg-[#f8fafc]">
 
