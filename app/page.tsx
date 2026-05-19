@@ -441,12 +441,12 @@ export default function Home() {
                   danneggiate o fuori asse.
                 </p>
 
-                <a
-                  href="#"
-                  className="font-bold text-[#f0b429]"
-                >
-                  Scopri di più →
-                </a>
+                <Link
+  href="/riparazione-serrande-milano"
+  className="inline-flex items-center text-[#f0b429] font-bold hover:text-[#ffcc4d] transition"
+>
+  Scopri di più
+</Link>
 
               </div>
 
@@ -483,12 +483,12 @@ export default function Home() {
                   per serrande automatiche.
                 </p>
 
-                <a
-                  href="#"
-                  className="font-bold text-[#f0b429]"
-                >
-                  Scopri di più →
-                </a>
+                <Link
+  href="/motori-serrande-milano"
+  className="inline-flex items-center text-[#f0b429] font-bold hover:text-[#ffcc4d] transition"
+>
+  Scopri di più
+</Link>
 
               </div>
 
@@ -525,12 +525,12 @@ export default function Home() {
                   con soluzioni moderne e sicure.
                 </p>
 
-                <a
-                  href="#"
-                  className="font-bold text-[#f0b429]"
-                >
-                  Scopri di più →
-                </a>
+                <Link
+  href="/saracinesche-negozi-milano"
+  className="inline-flex items-center text-[#f0b429] font-bold hover:text-[#ffcc4d] transition"
+>
+  Scopri di più
+</Link>
 
               </div>
 
@@ -567,12 +567,12 @@ export default function Home() {
                   sicurezza e affidabilità.
                 </p>
 
-                <a
-                  href="#"
-                  className="font-bold text-[#f0b429]"
-                >
-                  Scopri di più →
-                </a>
+                <Link
+  href="/pronto-intervento-serrande-milano"
+  className="inline-flex items-center text-[#f0b429] font-bold hover:text-[#ffcc4d] transition"
+>
+  Scopri di più
+</Link>
 
               </div>
 
