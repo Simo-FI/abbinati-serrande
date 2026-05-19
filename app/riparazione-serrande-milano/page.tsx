@@ -159,7 +159,7 @@ export default function RiparazioneSerrandeMilanoPage() {
 
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
             <div className="overflow-hidden rounded-[2rem]">
 
@@ -168,7 +168,7 @@ export default function RiparazioneSerrandeMilanoPage() {
                 alt="Riparazione serranda Porta Romana Milano"
                 width={800}
                 height={600}
-                className="w-full h-[260px] object-cover"
+                className="w-full aspect-[4/3] object-cover rounded-[2rem]"
               />
 
             </div>
@@ -180,7 +180,7 @@ export default function RiparazioneSerrandeMilanoPage() {
                 alt="Serranda bloccata Loreto Milano"
                 width={800}
                 height={600}
-                className="w-full h-[260px] object-cover"
+                className="w-full aspect-[4/3] object-cover rounded-[2rem]"
               />
 
             </div>
@@ -192,7 +192,7 @@ export default function RiparazioneSerrandeMilanoPage() {
                 alt="Riparazione serranda Brera Milano"
                 width={800}
                 height={600}
-                className="w-full h-[260px] object-cover"
+                className="w-full aspect-[4/3] object-cover rounded-[2rem]"
               />
 <div className="overflow-hidden rounded-[2rem]">
 
@@ -201,7 +201,7 @@ export default function RiparazioneSerrandeMilanoPage() {
     alt="Serranda fuori asse Milano centro"
     width={800}
     height={600}
-    className="w-full h-[260px] object-cover"
+    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
   />
 
 </div>
@@ -213,7 +213,7 @@ export default function RiparazioneSerrandeMilanoPage() {
     alt="Riparazione serranda Porta Romana Milano"
     width={800}
     height={600}
-    className="w-full h-[260px] object-cover"
+    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
   />
 
 </div>
@@ -225,7 +225,7 @@ export default function RiparazioneSerrandeMilanoPage() {
     alt="Serranda bloccata Città Studi Milano"
     width={800}
     height={600}
-    className="w-full h-[260px] object-cover"
+    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
   />
 
 </div>
@@ -237,7 +237,7 @@ export default function RiparazioneSerrandeMilanoPage() {
     alt="Intervento serranda Brera Milano"
     width={800}
     height={600}
-    className="w-full h-[260px] object-cover"
+    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
   />
 
 </div>
