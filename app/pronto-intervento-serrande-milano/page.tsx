@@ -1,5 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+export const metadata = {
+  title:
+    "Pronto Intervento Serrande Milano H24 | Assistenza Rapida",
+
+  description:
+    "Pronto intervento serrande Milano H24 per serrande bloccate, saracinesche, motori guasti e aperture urgenti su Milano e provincia.",
+
+  keywords: [
+    "pronto intervento serrande Milano",
+    "serranda bloccata Milano",
+    "assistenza serrande H24 Milano",
+    "riparazione urgente serrande Milano",
+  ],
+};
 
 export default function ProntoInterventoSerrandePage() {
   return (

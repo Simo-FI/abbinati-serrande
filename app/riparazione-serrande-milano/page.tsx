@@ -1,5 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+export const metadata = {
+  title:
+    "Riparazione Serrande Milano H24 | Abbinati Serrande",
+
+  description:
+    "Riparazione serrande Milano con pronto intervento H24. Assistenza su serrande bloccate, molle, saracinesche, motori e automazioni.",
+
+  keywords: [
+    "riparazione serrande Milano",
+    "serrande bloccate Milano",
+    "pronto intervento serrande Milano",
+    "saracinesche Milano",
+  ],
+};
 
 export default function RiparazioneSerrandeMilanoPage() {
   return (

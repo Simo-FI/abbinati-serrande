@@ -1,5 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+export const metadata = {
+  title:
+    "Motori Serrande Milano | Riparazione e Automazioni",
+
+  description:
+    "Assistenza motori serrande Milano. Riparazione motori, automazioni, centraline e sistemi elettrici per serrande e saracinesche.",
+
+  keywords: [
+    "motori serrande Milano",
+    "automazioni serrande Milano",
+    "riparazione motore serranda Milano",
+    "motore saracinesca Milano",
+  ],
+};
 
 export default function MotoriSerrandeMilanoPage() {
   return (

@@ -1,5 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
+export const metadata = {
+  title:
+    "Saracinesche Negozi Milano | Riparazione e Assistenza",
+
+  description:
+    "Riparazione saracinesche negozi Milano. Assistenza professionale per attività commerciali, serrande negozi e sistemi di chiusura.",
+
+  keywords: [
+    "saracinesche negozi Milano",
+    "riparazione saracinesche Milano",
+    "saracinesca negozio Milano",
+    "serrande negozi Milano",
+  ],
+};
 
 export default function SaracinescheNegoziMilanoPage() {
   return (
