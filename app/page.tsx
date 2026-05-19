@@ -781,6 +781,95 @@ export default function Home() {
   </div>
 
 </section>
+{/* FAQ */}
+<section className="py-24 bg-white">
+
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="mb-16">
+
+      <p className="text-[#f0b429] font-bold uppercase tracking-[0.15em] mb-4 text-sm">
+        FAQ Serrande Milano
+      </p>
+
+      <h2 className="text-4xl md:text-6xl font-black leading-tight text-[#020617] mb-8">
+        Domande Frequenti
+      </h2>
+
+    </div>
+
+    <div className="space-y-6">
+
+      {/* FAQ 1 */}
+      <div className="bg-[#f8fafc] rounded-[2rem] p-8">
+
+        <h3 className="text-2xl font-black text-[#020617] mb-4">
+          Quanto costa riparare una serranda a Milano?
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed text-lg">
+          Il costo dipende dal tipo di guasto, dal motore,
+          dalla serranda e dall’intervento necessario.
+          Effettuiamo sopralluoghi e preventivi chiari
+          per riparazione serrande e saracinesche a Milano.
+        </p>
+
+      </div>
+
+      {/* FAQ 2 */}
+      <div className="bg-[#f8fafc] rounded-[2rem] p-8">
+
+        <h3 className="text-2xl font-black text-[#020617] mb-4">
+          Effettuate pronto intervento serrande H24?
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed text-lg">
+          Sì, operiamo con pronto intervento H24
+          per serrande bloccate, saracinesche,
+          motori serrande e aperture urgenti
+          su Milano e provincia.
+        </p>
+
+      </div>
+
+      {/* FAQ 3 */}
+      <div className="bg-[#f8fafc] rounded-[2rem] p-8">
+
+        <h3 className="text-2xl font-black text-[#020617] mb-4">
+          Intervenite anche su serrande elettriche?
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed text-lg">
+          Interveniamo su serrande elettriche,
+          automazioni, motori serrande,
+          centraline e sistemi di apertura
+          per negozi, garage e abitazioni.
+        </p>
+
+      </div>
+
+      {/* FAQ 4 */}
+      <div className="bg-[#f8fafc] rounded-[2rem] p-8">
+
+        <h3 className="text-2xl font-black text-[#020617] mb-4">
+          In quali zone di Milano operate?
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed text-lg">
+          Operiamo su tutta Milano:
+          Navigli, Brera, Loreto,
+          Porta Romana, Duomo,
+          Città Studi, Milano Centrale
+          e provincia.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* FOOTER */}
 <footer
   id="contatti"
