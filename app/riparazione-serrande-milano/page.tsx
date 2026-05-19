@@ -154,104 +154,102 @@ export default function RiparazioneSerrandeMilanoPage() {
   </div>
 
 </section>
-      {/* GALLERY */}
-      <section className="pb-24">
+    {/* GALLERY */}
+<section className="pb-24">
 
-        <div className="max-w-7xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/riparazione-serranda-porta-romana.webp"
-                alt="Riparazione serranda Porta Romana Milano"
-                width={800}
-                height={600}
-                className="w-full aspect-[4/3] object-cover rounded-[2rem]"
-              />
+        <Image
+          src="/images/gallery/riparazione-serranda-porta-romana.webp"
+          alt="Riparazione serranda Porta Romana Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/serranda-bloccata-loreto.webp"
-                alt="Serranda bloccata Loreto Milano"
-                width={800}
-                height={600}
-                className="w-full aspect-[4/3] object-cover rounded-[2rem]"
-              />
+        <Image
+          src="/images/gallery/serranda-bloccata-loreto.webp"
+          alt="Serranda bloccata Loreto Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/riparazione-serranda-brera.webp"
-                alt="Riparazione serranda Brera Milano"
-                width={800}
-                height={600}
-                className="w-full aspect-[4/3] object-cover rounded-[2rem]"
-              />
+        <Image
+          src="/images/gallery/riparazione-serranda-brera.webp"
+          alt="Riparazione serranda Brera Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-              </div>
-              
-              <div className="overflow-hidden rounded-[2rem]">
+      </div>
 
-  <Image
-    src="/images/gallery/serrande-bloccate/serranda-fuori-asse-milano-centro.webp"
-    alt="Serranda fuori asse Milano centro"
-    width={800}
-    height={600}
-    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
-  />
+      <div className="overflow-hidden rounded-[2rem]">
 
-</div>
+        <Image
+          src="/images/gallery/serrande-bloccate/serranda-fuori-asse-milano-centro.webp"
+          alt="Serranda fuori asse Milano centro"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-<div className="overflow-hidden rounded-[2rem]">
+      </div>
 
-  <Image
-    src="/images/gallery/serrande-bloccate/riparazione-serranda-porta-romana.webp"
-    alt="Riparazione serranda Porta Romana Milano"
-    width={800}
-    height={600}
-    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
-  />
+      <div className="overflow-hidden rounded-[2rem]">
 
-</div>
+        <Image
+          src="/images/gallery/serrande-bloccate/riparazione-serranda-porta-romana.webp"
+          alt="Riparazione serranda Porta Romana Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-<div className="overflow-hidden rounded-[2rem]">
+      </div>
 
-  <Image
-    src="/images/gallery/serrande-bloccate/serranda-bloccata-citta-studi.webp"
-    alt="Serranda bloccata Città Studi Milano"
-    width={800}
-    height={600}
-    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
-  />
+      <div className="overflow-hidden rounded-[2rem]">
 
-</div>
+        <Image
+          src="/images/gallery/serrande-bloccate/serranda-bloccata-citta-studi.webp"
+          alt="Serranda bloccata Città Studi Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-<div className="overflow-hidden rounded-[2rem]">
+      </div>
 
-  <Image
-    src="/images/gallery/serrande-bloccate/intervento-serranda-brera-milano.webp"
-    alt="Intervento serranda Brera Milano"
-    width={800}
-    height={600}
-    className="w-full aspect-[4/3] object-cover rounded-[2rem]"
-  />
+      <div className="overflow-hidden rounded-[2rem]">
 
-</div>
-            </div>
+        <Image
+          src="/images/gallery/serrande-bloccate/intervento-serranda-brera-milano.webp"
+          alt="Intervento serranda Brera Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-          </div>
+      </div>
 
-        </div>
+    </div>
 
-      </section>
+  </div>
 
+</section>
       {/* FAQ */}
       <section className="py-24 bg-white">
 
