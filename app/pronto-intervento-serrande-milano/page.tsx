@@ -155,53 +155,89 @@ export default function ProntoInterventoSerrandePage() {
 
 </section>
       {/* GALLERY */}
-      <section className="pb-24">
+<section className="pb-24">
 
-        <div className="max-w-7xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/services/pronto-intervento-serrande-milano.webp"
-                alt="Pronto intervento serrande Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/pronto-intervento/pronto-intervento-serranda-loreto.webp"
+          alt="Pronto intervento serranda Loreto Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/pronto-intervento-citta-studi.webp"
-                alt="Intervento urgente serrande Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/pronto-intervento/intervento-urgente-serranda-milano.webp"
+          alt="Intervento urgente serranda Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/serranda-bloccata-loreto.webp"
-                alt="Serranda bloccata Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/pronto-intervento/serranda-bloccata-notturno-milano.webp"
+          alt="Serranda bloccata notturno Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-          </div>
+      <div className="overflow-hidden rounded-[2rem]">
 
-        </div>
+        <Image
+          src="/images/gallery/pronto-intervento/pronto-intervento-navigli-serranda.webp"
+          alt="Pronto intervento Navigli serranda"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-      </section>
+      </div>
+
+      <div className="overflow-hidden rounded-[2rem]">
+
+        <Image
+          src="/images/gallery/pronto-intervento/riparazione-urgente-serranda-brera.webp"
+          alt="Riparazione urgente serranda Brera Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
+
+      </div>
+
+      <div className="overflow-hidden rounded-[2rem]">
+
+        <Image
+          src="/images/gallery/pronto-intervento/assistenza-serranda-h24-milano.webp"
+          alt="Assistenza serranda H24 Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* FAQ */}
       <section className="py-24 bg-white">

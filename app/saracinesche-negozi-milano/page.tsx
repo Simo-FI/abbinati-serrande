@@ -153,53 +153,89 @@ export default function SaracinescheNegoziMilanoPage() {
 
 </section>
       {/* GALLERY */}
-      <section className="pb-24">
+<section className="pb-24">
 
-        <div className="max-w-7xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/services/saracinesca-negozio-milano.webp"
-                alt="Saracinesca negozio Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/saracinesche-negozi/saracinesca-negozio-duomo-milano.webp"
+          alt="Saracinesca negozio Duomo Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/saracinesca-duomo-milano.webp"
-                alt="Saracinesca negozio Duomo Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/saracinesche-negozi/riparazione-saracinesca-brera.webp"
+          alt="Riparazione saracinesca Brera Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/riparazione-serranda-brera.webp"
-                alt="Riparazione saracinesca Brera Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/saracinesche-negozi/saracinesca-commerciale-milano.webp"
+          alt="Saracinesca commerciale Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-          </div>
+      <div className="overflow-hidden rounded-[2rem]">
 
-        </div>
+        <Image
+          src="/images/gallery/saracinesche-negozi/negozio-serranda-loreto-milano.webp"
+          alt="Negozio serranda Loreto Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-      </section>
+      </div>
+
+      <div className="overflow-hidden rounded-[2rem]">
+
+        <Image
+          src="/images/gallery/saracinesche-negozi/saracinesca-negozio-navigli.webp"
+          alt="Saracinesca negozio Navigli Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
+
+      </div>
+
+      <div className="overflow-hidden rounded-[2rem]">
+
+        <Image
+          src="/images/gallery/saracinesche-negozi/riparazione-serranda-negozio-milano.webp"
+          alt="Riparazione serranda negozio Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* FAQ */}
       <section className="py-24 bg-white">

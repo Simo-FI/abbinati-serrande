@@ -153,54 +153,89 @@ export default function MotoriSerrandeMilanoPage() {
 
 </section>
       {/* GALLERY */}
-      <section className="pb-24">
+<section className="pb-24">
 
-        <div className="max-w-7xl mx-auto px-6">
+  <div className="max-w-7xl mx-auto px-6">
 
-          <div className="grid grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/services/motore-serranda-milano.webp"
-                alt="Motore serranda Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/motori-serrande/motore-serranda-loreto-milano.webp"
+          alt="Motore serranda Loreto Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/motore-serranda-navigli.webp"
-                alt="Motore serranda Navigli Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/motori-serrande/automazione-serranda-milano-centro.webp"
+          alt="Automazione serranda Milano centro"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-            <div className="overflow-hidden rounded-[2rem]">
+      <div className="overflow-hidden rounded-[2rem]">
 
-              <Image
-                src="/images/gallery/pronto-intervento-citta-studi.webp"
-                alt="Automazione serrande Milano"
-                width={800}
-                height={600}
-                className="w-full h-[260px] object-cover"
-              />
+        <Image
+          src="/images/gallery/motori-serrande/riparazione-motore-serranda-navigli.webp"
+          alt="Riparazione motore serranda Navigli Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-            </div>
+      </div>
 
-          </div>
+      <div className="overflow-hidden rounded-[2rem]">
 
-        </div>
+        <Image
+          src="/images/gallery/motori-serrande/motore-serranda-porta-romana.webp"
+          alt="Motore serranda Porta Romana Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
 
-      </section>
+      </div>
 
+      <div className="overflow-hidden rounded-[2rem]">
+
+        <Image
+          src="/images/gallery/motori-serrande/assistenza-serranda-elettrica-milano.webp"
+          alt="Assistenza serranda elettrica Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
+
+      </div>
+
+      <div className="overflow-hidden rounded-[2rem]">
+
+        <Image
+          src="/images/gallery/motori-serrande/centralina-serranda-brera-milano.webp"
+          alt="Centralina serranda Brera Milano"
+          width={800}
+          height={600}
+          className="w-full aspect-[4/3] object-cover rounded-[2rem]"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* FAQ */}
       <section className="py-24 bg-white">
 
