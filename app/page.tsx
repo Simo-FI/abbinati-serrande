@@ -215,7 +215,7 @@ export default function Home() {
 
     <div className="max-w-2xl">
 
-      <div className="inline-flex items-center gap-3 bg-white/10 border border-white/10 backdrop-blur px-5 py-3 rounded-full mb-8">
+      <div className="inline-flex items-center gap-3 bg-white/10 border border-white/10 backdrop-blur px-5 py-3 rounded-full mt-6 mb-8">
 
   <div className="w-2 h-2 rounded-full bg-[#f0b429]"></div>
 
