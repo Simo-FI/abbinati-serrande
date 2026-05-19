@@ -194,7 +194,53 @@ export default function RiparazioneSerrandeMilanoPage() {
                 height={600}
                 className="w-full h-[260px] object-cover"
               />
+<div className="overflow-hidden rounded-[2rem]">
 
+  <Image
+    src="/images/gallery/serrande-bloccate/serranda-fuori-asse-milano-centro.webp"
+    alt="Serranda fuori asse Milano centro"
+    width={800}
+    height={600}
+    className="w-full h-[260px] object-cover"
+  />
+
+</div>
+
+<div className="overflow-hidden rounded-[2rem]">
+
+  <Image
+    src="/images/gallery/serrande-bloccate/riparazione-serranda-porta-romana.webp"
+    alt="Riparazione serranda Porta Romana Milano"
+    width={800}
+    height={600}
+    className="w-full h-[260px] object-cover"
+  />
+
+</div>
+
+<div className="overflow-hidden rounded-[2rem]">
+
+  <Image
+    src="/images/gallery/serrande-bloccate/serranda-bloccata-citta-studi.webp"
+    alt="Serranda bloccata Città Studi Milano"
+    width={800}
+    height={600}
+    className="w-full h-[260px] object-cover"
+  />
+
+</div>
+
+<div className="overflow-hidden rounded-[2rem]">
+
+  <Image
+    src="/images/gallery/serrande-bloccate/intervento-serranda-brera-milano.webp"
+    alt="Intervento serranda Brera Milano"
+    width={800}
+    height={600}
+    className="w-full h-[260px] object-cover"
+  />
+
+</div>
             </div>
 
           </div>
