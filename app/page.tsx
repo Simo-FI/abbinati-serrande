@@ -702,7 +702,7 @@ export default function Home() {
 
 </section>
       {/* GALLERY */}
-<section className="pt-4 pb-12 md:py-24 bg-[#020617]">
+<section className="pt-16 pb-6 md:py-24 bg-[#020617]">
 
   <div className="max-w-7xl mx-auto px-6">
 
