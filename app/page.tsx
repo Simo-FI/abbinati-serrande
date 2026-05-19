@@ -92,7 +92,7 @@ export default function Home() {
           className="bg-[#f0b429] text-black font-black rounded-2xl px-6 py-5 flex items-center justify-center gap-3 text-lg"
         >
           <Phone size={22} />
-          Chiama Ora
+          Chiama Subito
         </a>
 
       </div>
@@ -174,7 +174,7 @@ export default function Home() {
     <Phone size={18} />
 
     <span>
-      Chiama Ora
+      Chiama subito
     </span>
 
   </a>
@@ -242,7 +242,7 @@ export default function Home() {
     className="bg-[#f0b429] hover:bg-[#ffcc4d] transition text-black font-black px-9 py-5 rounded-2xl flex items-center justify-center gap-3 shadow-[0_20px_60px_rgba(240,180,41,0.35)] text-lg"
   >
     <Phone size={22} />
-    Chiama Ora
+    Chiama subito
   </a>
 
   <a
@@ -251,7 +251,7 @@ export default function Home() {
     className="border border-white/15 bg-white/5 backdrop-blur hover:bg-white hover:text-black transition text-white font-bold px-9 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
   >
     <MessageCircle size={22} />
-    WhatsApp
+    WhatsApp rapido
   </a>
 
 </div>
@@ -589,7 +589,7 @@ export default function Home() {
                   className="bg-[#f0b429] hover:opacity-90 transition text-black font-bold px-8 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
                 >
                   <Phone size={22} />
-                  Chiama Ora
+                  Chiama subito
                 </a>
 
                 <a
@@ -598,7 +598,7 @@ export default function Home() {
                   className="border border-white/20 hover:bg-white hover:text-black transition font-bold px-8 py-5 rounded-2xl flex items-center justify-center gap-3 text-lg"
                 >
                   <MessageCircle size={22} />
-                  WhatsApp
+                  WhatsApp rapido
                 </a>
 
               </div>
@@ -627,7 +627,7 @@ export default function Home() {
           className="flex-1 bg-[#f0b429] text-black rounded-2xl py-4 font-bold flex items-center justify-center gap-2"
         >
           <MessageCircle size={20} />
-          WhatsApp
+          WhatsApp rapido
         </a>
 
       </div>
@@ -920,7 +920,7 @@ export default function Home() {
             target="_blank"
             className="hover:text-[#f0b429] transition"
           >
-            WhatsApp
+            WhatsApp rapido
           </a>
 
           <p>
