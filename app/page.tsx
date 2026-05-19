@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   Phone,
@@ -424,9 +425,16 @@ export default function Home() {
 
               <div className="p-6">
 
-                <h3 className="text-2xl font-bold mb-4">
-                  Riparazione Serrande
-                </h3>
+                <h3 className="text-2xl font-black mb-4">
+
+  <Link
+    href="/riparazione-serrande-milano"
+    className="hover:text-[#f0b429] transition"
+  >
+    Riparazione Serrande Bloccate
+  </Link>
+
+</h3>
 
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Interventi rapidi su serrande bloccate,
@@ -459,9 +467,16 @@ export default function Home() {
 
               <div className="p-6">
 
-                <h3 className="text-2xl font-bold mb-4">
-                  Motori e Automazioni
-                </h3>
+                <h3 className="text-2xl font-black mb-4">
+
+  <Link
+    href="/motori-serrande-milano"
+    className="hover:text-[#f0b429] transition"
+  >
+    Motori Serrande e Automazioni
+  </Link>
+
+</h3>
 
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Installazione e riparazione motori
@@ -494,9 +509,16 @@ export default function Home() {
 
               <div className="p-6">
 
-                <h3 className="text-2xl font-bold mb-4">
-                  Sostituzione Serrande
-                </h3>
+                <h3 className="text-2xl font-black mb-4">
+
+  <Link
+    href="/saracinesche-negozi-milano"
+    className="hover:text-[#f0b429] transition"
+  >
+    Saracinesche Negozi
+  </Link>
+
+</h3>
 
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Sostituzione serrande usurate
@@ -529,9 +551,16 @@ export default function Home() {
 
               <div className="p-6">
 
-                <h3 className="text-2xl font-bold mb-4">
-                  Manutenzione
-                </h3>
+                <h3 className="text-2xl font-black mb-4">
+
+  <Link
+    href="/pronto-intervento-serrande-milano"
+    className="hover:text-[#f0b429] transition"
+  >
+    Pronto Intervento H24
+  </Link>
+
+</h3>
 
                 <p className="text-gray-600 leading-relaxed mb-6">
                   Controlli periodici per garantire
