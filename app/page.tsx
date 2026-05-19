@@ -702,12 +702,12 @@ export default function Home() {
 
 </section>
       {/* GALLERY */}
-<section className="pt-8 pb-12 md:py-24 bg-[#020617]">
+<section className="pt-2 pb-12 md:py-24 bg-[#020617]">
 
   <div className="max-w-7xl mx-auto px-6">
 
     {/* TITLE */}
-    <div className="max-w-3xl mb-4 md:mb-16">
+    <div className="max-w-3xl mb-2 md:mb-16">
 
       <p className="text-[#f0b429] font-bold uppercase tracking-[0.15em] mb-4 text-sm">
         Lavori Eseguiti
@@ -717,7 +717,7 @@ export default function Home() {
         Interventi Recenti a Milano
       </h2>
 
-      <p className="text-gray-400 text-lg leading-relaxed mt-2">
+      <p className="text-gray-400 text-lg leading-relaxed">
         Alcuni interventi reali effettuati su serrande,
         saracinesche e motori a Milano e provincia.
       </p>
