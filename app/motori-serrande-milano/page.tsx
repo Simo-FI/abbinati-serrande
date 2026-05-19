@@ -112,7 +112,46 @@ export default function MotoriSerrandeMilanoPage() {
         </div>
 
       </section>
+{/* TECHNICAL CONTENT */}
+<section className="pb-24">
 
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="bg-white rounded-[2rem] p-10 md:p-14">
+
+      <h2 className="text-4xl md:text-5xl font-black mb-8">
+        Assistenza Motori Serrande e Automazioni
+      </h2>
+
+      <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+
+        <p>
+          Effettuiamo assistenza su motori serrande,
+          automazioni elettriche e sistemi
+          di apertura per negozi,
+          garage e abitazioni private.
+        </p>
+
+        <p>
+          Interveniamo su motori bloccati,
+          serrande elettriche fuori asse,
+          centraline guaste e problematiche
+          di apertura e chiusura automatizzata.
+        </p>
+
+        <p>
+          Operiamo con componenti professionali
+          e interventi rapidi su Milano
+          per ridurre disagi e fermo attività.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* GALLERY */}
       <section className="pb-24">
 

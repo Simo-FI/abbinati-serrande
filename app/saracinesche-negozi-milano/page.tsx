@@ -111,7 +111,47 @@ export default function SaracinescheNegoziMilanoPage() {
         </div>
 
       </section>
+{/* TECHNICAL CONTENT */}
+<section className="pb-24">
 
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="bg-white rounded-[2rem] p-10 md:p-14">
+
+      <h2 className="text-4xl md:text-5xl font-black mb-8">
+        Assistenza Saracinesche per Attività Commerciali
+      </h2>
+
+      <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+
+        <p>
+          Effettuiamo assistenza professionale
+          per saracinesche commerciali,
+          negozi, showroom e attività
+          su Milano e provincia.
+        </p>
+
+        <p>
+          Interveniamo su saracinesche bloccate,
+          problemi di apertura e chiusura,
+          sistemi motorizzati e guasti improvvisi
+          che richiedono assistenza rapida.
+        </p>
+
+        <p>
+          Operiamo con interventi professionali
+          per ridurre tempi di fermo
+          e garantire sicurezza
+          alle attività commerciali.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* GALLERY */}
       <section className="pb-24">
 

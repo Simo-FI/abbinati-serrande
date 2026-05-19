@@ -113,7 +113,47 @@ export default function ProntoInterventoSerrandePage() {
         </div>
 
       </section>
+{/* TECHNICAL CONTENT */}
+<section className="pb-24">
 
+  <div className="max-w-5xl mx-auto px-6">
+
+    <div className="bg-white rounded-[2rem] p-10 md:p-14">
+
+      <h2 className="text-4xl md:text-5xl font-black mb-8">
+        Interventi Urgenti Serrande H24
+      </h2>
+
+      <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+
+        <p>
+          Operiamo con pronto intervento rapido
+          per serrande bloccate, saracinesche,
+          motori guasti e aperture urgenti
+          su Milano e provincia.
+        </p>
+
+        <p>
+          Interveniamo su negozi,
+          garage e abitazioni private
+          per problematiche improvvise
+          che richiedono assistenza immediata.
+        </p>
+
+        <p>
+          Effettuiamo interventi professionali
+          per ridurre tempi di fermo,
+          problematiche di sicurezza
+          e blocchi delle attività commerciali.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
       {/* GALLERY */}
       <section className="pb-24">
 
