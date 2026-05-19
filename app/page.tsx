@@ -385,7 +385,7 @@ export default function Home() {
             {/* SERVICES */}
       <section
   id="servizi"
-  className="py-24 bg-white"
+  className="py-16 md:py-24 bg-white"
 >
 
         <div className="max-w-7xl mx-auto px-6">
@@ -584,7 +584,7 @@ export default function Home() {
 
       </section>
             {/* CTA SECTION */}
-      <section className="py-20 bg-[#111827] text-white">
+      <section className="py-16 md:py-24 bg-[#020617] text-white">
 
         <div className="max-w-7xl mx-auto px-6">
 
@@ -661,7 +661,7 @@ export default function Home() {
 
       </div>
       {/* SEO CONTENT */}
-<section className="py-24 bg-white">
+<section className="py-16 md:py-24 bg-white">
 
   <div className="max-w-5xl mx-auto px-6">
 
@@ -702,7 +702,7 @@ export default function Home() {
 
 </section>
       {/* GALLERY */}
-<section className="py-24 bg-[#f8fafc]">
+<section className="py-16 md:py-24 bg-[#020617]">
 
   <div className="max-w-7xl mx-auto px-6">
 
@@ -811,7 +811,7 @@ export default function Home() {
 
 </section>
 {/* FAQ */}
-<section className="py-24 bg-white">
+<section className="py-16 md:py-24 bg-white">
 
   <div className="max-w-5xl mx-auto px-6">
 
