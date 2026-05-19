@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 import {
   Phone,
@@ -192,11 +193,13 @@ export default function Home() {
   {/* BACKGROUND IMAGE */}
   <div className="absolute inset-0">
 
-    <img
-      src="/hero-serranda.webp"
-      alt="Serranda Milano"
-     className="w-full h-full object-cover scale-105"
-    />
+    <Image
+  src="/hero-serranda.webp"
+  alt="Riparazione serrande Milano"
+  fill
+  priority
+  className="object-cover scale-105"
+/>
 
     {/* OVERLAY */}
     <div className="absolute inset-0 bg-[#020617]/55"></div>
@@ -410,11 +413,13 @@ export default function Home() {
             <div className="group bg-[#f8f8f8] rounded-3xl overflow-hidden border border-gray-200 hover:shadow-2xl transition duration-300">
 
               <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src="/images/services/serranda-bloccata-milano.webp"
-                  alt="Riparazione serranda bloccata Milano"
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                />
+                <Image
+  src="/images/services/serranda-bloccata-milano.webp"
+  alt="Riparazione serranda bloccata Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover"
+/>
               </div>
 
               <div className="p-6">
@@ -443,11 +448,13 @@ export default function Home() {
             <div className="group bg-[#f8f8f8] rounded-3xl overflow-hidden border border-gray-200 hover:shadow-2xl transition duration-300">
 
               <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src="/images/services/motore-serranda-milano.webp"
-                  alt="Riparazione motore serranda Milano"
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                />
+                <Image
+  src="/images/services/motore-serranda-milano.webp"
+  alt="Riparazione motore serranda Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover"
+/>
               </div>
 
               <div className="p-6">
@@ -476,11 +483,13 @@ export default function Home() {
             <div className="group bg-[#f8f8f8] rounded-3xl overflow-hidden border border-gray-200 hover:shadow-2xl transition duration-300">
 
               <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src="/images/services/saracinesca-negozio-milano.webp"
-                  alt="Saracinesca negozio Milano"
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                />
+                <Image
+  src="/images/services/saracinesca-negozio-milano.webp"
+  alt="Saracinesca negozio Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover"
+/>
               </div>
 
               <div className="p-6">
@@ -509,11 +518,13 @@ export default function Home() {
             <div className="group bg-[#f8f8f8] rounded-3xl overflow-hidden border border-gray-200 hover:shadow-2xl transition duration-300">
 
               <div className="aspect-[4/3] overflow-hidden">
-                <img
-                  src="/images/services/pronto-intervento-serrande-milano.webp"
-                  alt="Pronto intervento serrande Milano"
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                />
+                <Image
+  src="/images/services/pronto-intervento-serrande-milano.webp"
+  alt="Pronto intervento serrande Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover"
+/>
               </div>
 
               <div className="p-6">
@@ -649,66 +660,78 @@ export default function Home() {
       {/* IMAGE 1 */}
       <div className="group overflow-hidden rounded-[2rem]">
 
-        <img
-          src="/images/gallery/riparazione-serranda-porta-romana.webp"
-          alt="Riparazione serranda Porta Romana Milano"
-          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
-        />
+        <Image
+  src="/images/gallery/riparazione-serranda-porta-romana.webp"
+  alt="Riparazione serranda Porta Romana Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+/>
 
       </div>
 
       {/* IMAGE 2 */}
       <div className="group overflow-hidden rounded-[2rem]">
 
-        <img
-          src="/images/gallery/motore-serranda-navigli.webp"
-          alt="Motore serranda Navigli Milano"
-          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
-        />
+        <Image
+  src="/images/gallery/motore-serranda-navigli.webp"
+  alt="Motore serranda Navigli Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+/>
 
       </div>
 
       {/* IMAGE 3 */}
       <div className="group overflow-hidden rounded-[2rem]">
 
-        <img
-          src="/images/gallery/saracinesca-duomo-milano.webp"
-          alt="Saracinesca Duomo Milano"
-          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
-        />
+        <Image
+  src="/images/gallery/saracinesca-duomo-milano.webp"
+  alt="Saracinesca Duomo Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+/>
 
       </div>
 
       {/* IMAGE 4 */}
       <div className="group overflow-hidden rounded-[2rem]">
 
-        <img
-          src="/images/gallery/pronto-intervento-citta-studi.webp"
-          alt="Pronto intervento serrande Città Studi Milano"
-          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
-        />
+        <Image
+  src="/images/gallery/pronto-intervento-citta-studi.webp"
+  alt="Pronto intervento serrande Città Studi Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+/>
 
       </div>
 
       {/* IMAGE 5 */}
       <div className="group overflow-hidden rounded-[2rem]">
 
-        <img
-          src="/images/gallery/serranda-bloccata-loreto.webp"
-          alt="Serranda bloccata Loreto Milano"
-          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
-        />
+        <Image
+  src="/images/gallery/serranda-bloccata-loreto.webp"
+  alt="Serranda bloccata Loreto Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+/>
 
       </div>
 
       {/* IMAGE 6 */}
       <div className="group overflow-hidden rounded-[2rem]">
 
-        <img
-          src="/images/gallery/riparazione-serranda-brera.webp"
-          alt="Riparazione serranda Brera Milano"
-          className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
-        />
+        <Image
+  src="/images/gallery/riparazione-serranda-porta-romana.webp"
+  alt="Riparazione serranda Porta Romana Milano"
+  width={800}
+  height={600}
+  className="w-full h-[260px] object-cover transition duration-500 group-hover:scale-110"
+/>
 
       </div>
 
